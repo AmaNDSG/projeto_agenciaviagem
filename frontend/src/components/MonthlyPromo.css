@@ -1,0 +1,14 @@
+.main03 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .main03 {
+    width: 100%;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+}

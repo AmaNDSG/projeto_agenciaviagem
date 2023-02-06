@@ -1,0 +1,127 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.quadrado-icon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: -72.5px;
+  width: 238px;
+  height: 378px;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+.title9 {
+  position: relative;
+  line-height: 140%;
+}
+.mapas1,
+.top1 {
+  align-self: stretch;
+  flex: 1;
+}
+.top1 {
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+.mapas1 {
+  border: 1px solid var(--color-black);
+  opacity: 0;
+}
+.mapas1.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.bottom1,
+.local1 {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottom1 {
+  align-self: stretch;
+  height: 350px;
+  flex-direction: row;
+  z-index: 2;
+}
+.local1 {
+  width: 331px;
+  height: 378px;
+  flex-direction: column;
+  position: relative;
+}
+.agendamento2,
+.resultado1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.resultado1 {
+  flex-direction: row;
+  padding: 0 0 var(--padding-7xl);
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--body-fs-01-size);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.agendamento2 {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-md);
+}
+.content5,
+.pagamentomeio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content5 {
+  align-self: stretch;
+  padding: 0 0 var(--padding-7xl);
+  align-items: center;
+}
+.pagamentomeio {
+  position: relative;
+  background-color: var(--theme-white);
+  width: 100%;
+  align-items: flex-start;
+  gap: var(--gap-lg);
+}
+@media screen and (max-width: 768px) {
+  .bottom1 {
+    width: 100%;
+  }
+  .local1 {
+    padding-bottom: 5%;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  .local1,
+  .resultado1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .agendamento2,
+  .content5 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 428px) {
+  .local1 {
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,31 @@
+.text8 {
+  position: relative;
+  line-height: 140%;
+}
+.preco4,
+.precototal,
+.total4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.preco4,
+.precototal {
+  flex-direction: column;
+}
+.precototal {
+  flex-direction: row;
+  gap: var(--gap-md);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--theme-primary);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 768px) {
+  .precototal {
+    width: 100%;
+    padding-left: var(--padding-10xs);
+    box-sizing: border-box;
+  }
+}

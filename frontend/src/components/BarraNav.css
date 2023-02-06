@@ -1,0 +1,154 @@
+.hamburguer-icon {
+  position: relative;
+  width: 18px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.togglemenu {
+  display: none;
+  flex-direction: column;
+  padding: var(--padding-9xs) var(--padding-11xs);
+  align-items: flex-start;
+  justify-content: center;
+}
+.voyage {
+  color: var(--theme2-primary1);
+}
+.bvlogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 140%;
+  display: inline-block;
+  width: 100px;
+}
+.logo {
+  position: relative;
+  width: 100px;
+  height: 28px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.hoteis,
+.index1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 140%;
+  font-weight: 700;
+  color: inherit;
+}
+.hoteis {
+  cursor: pointer;
+}
+.entrar {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: var(--body-fs-01-size);
+  line-height: 140%;
+  font-family: var(--heading-81);
+  color: var(--theme-primary);
+  text-align: left;
+}
+.login1 {
+  cursor: pointer;
+  border: 1px solid var(--theme-primary);
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-md);
+  box-sizing: border-box;
+  width: 76px;
+  height: 38px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.login1:hover {
+  background-color: var(--color-cornflowerblue-200);
+}
+.linkbar,
+.links,
+.navbar {
+  justify-content: flex-start;
+}
+.linkbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.links,
+.navbar {
+  flex: 1;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-4xl);
+  font-size: var(--body-fs-01-size);
+  color: var(--gray-800);
+}
+.navbar {
+  gap: var(--gap-9xl);
+}
+.barranav,
+.navbar,
+.navresponsive {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navresponsive {
+  width: 1440px;
+  flex-shrink: 0;
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-md);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.barranav {
+  align-self: stretch;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--theme-primary);
+  font-family: var(--heading-81);
+}
+@media screen and (max-width: 1200px) {
+  .barranav {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .togglemenu {
+    display: flex;
+  }
+  .logo {
+    width: 100%;
+  }
+  .links {
+    display: none;
+  }
+  .barranav,
+  .navresponsive {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .navresponsive {
+    padding: 0;
+  }
+  .barranav {
+    padding-left: 2%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .logo {
+    display: none;
+  }
+  .barranav,
+  .navresponsive {
+    width: 100%;
+  }
+}

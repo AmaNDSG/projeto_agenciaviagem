@@ -1,0 +1,35 @@
+.inputstandard-formgroup32 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.botoes1,
+.form5,
+.local12 {
+  display: flex;
+  justify-content: flex-start;
+}
+.local12 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-md);
+}
+.botoes1,
+.form5 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-7xl);
+}
+.form5 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-md);
+  gap: var(--gap-md);
+}
+@media screen and (max-width: 768px) {
+  .botoes1,
+  .form5 {
+    width: 100%;
+  }
+}

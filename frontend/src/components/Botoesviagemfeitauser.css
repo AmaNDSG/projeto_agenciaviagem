@@ -1,0 +1,28 @@
+.span1 {
+  color: var(--gray-5002);
+}
+.pags {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 18px;
+  font-weight: 500;
+}
+.botoes,
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.botoes {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 var(--padding-lg);
+  text-align: right;
+  font-size: var(--caption2-size);
+  color: var(--gray-9004);
+  font-family: var(--caption2);
+}

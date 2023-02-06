@@ -1,0 +1,151 @@
+.gradient,
+.image-icon {
+  position: absolute;
+  left: 0;
+  width: 375px;
+}
+.image-icon {
+  top: 0;
+  height: 375px;
+  object-fit: cover;
+}
+.gradient {
+  top: 186px;
+  background: linear-gradient(180deg, rgba(57, 67, 77, 0), #39424d);
+  height: 189px;
+}
+.local2 {
+  position: relative;
+  line-height: 140%;
+}
+.descricao1 {
+  position: absolute;
+  top: 274px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.destinos03 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.top2 {
+  align-self: stretch;
+  height: 375px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.content8,
+.objects,
+.top2 {
+  display: flex;
+  align-items: flex-start;
+}
+.objects {
+  width: 756px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.content8 {
+  flex-direction: row;
+  justify-content: center;
+}
+.title13 {
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  width: 263px;
+  flex-shrink: 0;
+}
+.button {
+  cursor: pointer;
+}
+.frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header04,
+.items-pop01,
+.main04,
+.saibamais {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.saibamais {
+  background-color: var(--theme2-primary1);
+  width: 756px;
+  padding: var(--padding-3xl) var(--padding-6xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  font-size: var(--body-fs-01-size);
+  color: var(--gray-100);
+}
+.header04,
+.items-pop01,
+.main04 {
+  align-self: stretch;
+}
+.items-pop01 {
+  flex: 1;
+  align-items: center;
+}
+.header04,
+.main04 {
+  align-items: flex-start;
+}
+.header04 {
+  height: 894px;
+  flex-shrink: 0;
+}
+.main04 {
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--theme-white);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .saibamais {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .destinos03 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .top2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .objects {
+    padding-left: var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .content8,
+  .frame,
+  .objects {
+    width: 100%;
+    flex-direction: column;
+  }
+  .header04,
+  .items-pop01,
+  .main04 {
+    width: 100%;
+  }
+  .main04 {
+    padding-top: 100%;
+    padding-bottom: 100%;
+    box-sizing: border-box;
+  }
+}

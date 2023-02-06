@@ -1,0 +1,38 @@
+.inputstandard-formgroup1 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  color: var(--theme-primary);
+  text-align: left;
+}
+.link:hover {
+  color: var(--color-slateblue);
+}
+.recuperar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttondefault2,
+.buttonoutlined {
+  align-self: stretch;
+}
+.buttonoutlined {
+  cursor: pointer;
+}
+.loginform {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}

@@ -1,0 +1,43 @@
+.deseja-concluir-seu-agendament {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.clique-no-boto-e-termine-de-p {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.text10 {
+  position: relative;
+  line-height: 140%;
+}
+.title16 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonoutlined2 {
+  cursor: pointer;
+}
+.next {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--theme-primary);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 768px) {
+  .next,
+  .title16 {
+    width: 100%;
+  }
+  .next {
+    flex-direction: column;
+  }
+}

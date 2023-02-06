@@ -1,0 +1,86 @@
+.destinoviagem01,
+.destinoviagem02 {
+  position: relative;
+  line-height: 140%;
+}
+.destinoviagem02 {
+  color: var(--gray-5002);
+}
+.destinoviagem {
+  width: 149px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  color: var(--gray-9004);
+}
+.preco5 {
+  width: 103px;
+}
+.desconto,
+.preco5,
+.total5 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.desconto {
+  width: 101px;
+  color: var(--red-5002);
+}
+.total5 {
+  width: 104px;
+}
+.pdfbox-icon {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.pdf,
+.viagemfeita {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.pdf {
+  padding: 0 var(--padding-11xs);
+  align-items: flex-start;
+}
+.viagemfeita {
+  align-items: center;
+  text-align: right;
+  font-size: var(--body-fs-01-size);
+  color: var(--gray-7002);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 768px) {
+  .viagemfeita {
+    width: 100%;
+    flex-direction: row;
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .desconto,
+  .destinoviagem,
+  .pdf,
+  .preco5,
+  .total5 {
+    width: 100%;
+  }
+  .viagemfeita {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+.inputstandard-formgroup23 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.form4,
+.local11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.form4 {
+  padding: var(--padding-5xs) var(--padding-md);
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .form4 {
+    width: 100%;
+  }
+}

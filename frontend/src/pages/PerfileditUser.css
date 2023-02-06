@@ -1,0 +1,53 @@
+.title11 {
+  position: relative;
+  line-height: 140%;
+}
+.titulo7 {
+  align-self: stretch;
+  background-color: var(--theme-primary);
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.editar {
+  background-color: var(--color-lavender-200);
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--gray-100);
+  font-family: var(--font-roboto);
+}
+.editar,
+.perfiledit-user,
+.profile2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profile2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-12xl);
+  gap: var(--gap-5xl);
+}
+.perfiledit-user {
+  position: relative;
+  background-color: var(--theme-white);
+  width: 100%;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .editar,
+  .profile2 {
+    width: 100%;
+  }
+  .profile2 {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}

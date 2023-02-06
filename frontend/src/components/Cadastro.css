@@ -1,0 +1,33 @@
+.title7 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.cadastro,
+.titulo3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titulo3 {
+  align-self: stretch;
+}
+.cadastro {
+  position: relative;
+  background-color: var(--theme-white);
+  border: 1px solid var(--gray-200);
+  box-sizing: border-box;
+  padding: var(--padding-sm) 47px;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--theme-primary);
+  font-family: var(--font-roboto);
+}

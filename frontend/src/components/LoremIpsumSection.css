@@ -1,0 +1,150 @@
+.hotel-2-icon {
+  position: relative;
+  width: 375px;
+  height: 375px;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.titulo20 {
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  width: 368px;
+}
+.icon27 {
+  position: relative;
+  width: 15px;
+  height: 18px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.destino9 {
+  position: relative;
+  line-height: 140%;
+}
+.local22,
+.localduracao9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.local22 {
+  align-items: center;
+  gap: var(--gap-6xs);
+}
+.localduracao9 {
+  align-items: flex-start;
+  color: var(--gray-9002);
+}
+.porpessoa13 {
+  position: relative;
+  font-size: var(--body-fs-01-size);
+  line-height: 140%;
+  color: var(--gray-9002);
+}
+.preco15 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.card013,
+.card023,
+.cards3,
+.precodesconto9,
+.precos9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.precodesconto9 {
+  font-size: var(--font-size-2xl);
+  color: var(--theme-primary);
+}
+.card013,
+.card023,
+.cards3 {
+  gap: var(--gap-xl);
+}
+.cards3 {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.frame5,
+.header022,
+.hotelcard1 {
+  display: flex;
+  flex-direction: column;
+}
+.frame5 {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.header022,
+.hotelcard1 {
+  align-self: stretch;
+  align-items: center;
+}
+.hotelcard1 {
+  height: 686.5px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.header022 {
+  justify-content: center;
+  text-align: left;
+  font-size: var(--body-fs-01-size);
+  color: var(--gray-10001);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .card013,
+  .card023 {
+    flex-direction: column;
+    z-index: 2;
+  }
+  .card023 {
+    z-index: 1;
+  }
+  .cards3 {
+    flex-direction: row;
+    padding-left: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .cards3,
+  .hotelcard1 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card013 {
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+  .card013,
+  .card023 {
+    width: 100%;
+    padding-bottom: 2%;
+  }
+  .card023,
+  .cards3,
+  .frame5 {
+    box-sizing: border-box;
+  }
+  .cards3 {
+    width: 100%;
+    flex-direction: column;
+    padding-left: var(--padding-5xl);
+  }
+  .frame5 {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .frame5,
+  .header022 {
+    width: 100%;
+  }
+}
